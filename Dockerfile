@@ -1,6 +1,6 @@
-FROM debian:jessie
+FROM debian:buster
 
-ARG architecture=x64
+ARG architecture=arm64
 ARG node_version=6.11.1
 ARG build_date
 ARG repo=redloro
